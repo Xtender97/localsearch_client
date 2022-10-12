@@ -1,0 +1,22 @@
+.card {
+  border: 2px solid var(--color-light);
+  border-radius: 10px;
+  padding: 2rem;
+  min-width: 50%;
+
+  &__name {
+    font-size: 2rem;
+  }
+
+  &__address {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 2px solid var(--color-light);
+  }
+
+  &__icon {
+    margin-right: 10px;
+  }
+}

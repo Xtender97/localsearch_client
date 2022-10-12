@@ -1,0 +1,17 @@
+.hours {
+  &__title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 1rem 0;
+  }
+
+  .day {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+ 
+    &__label {
+      text-transform: capitalize;
+    }
+  }
+}
