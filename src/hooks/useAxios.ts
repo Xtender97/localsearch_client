@@ -22,7 +22,6 @@ export function useAxios<T>({
 
   useEffect(() => {
     if (!url) return;
-    console.log("ran");
 
     setLoading(true);
     api[method](url)
