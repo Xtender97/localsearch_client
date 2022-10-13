@@ -1,4 +1,3 @@
-import * as React from "react";
 import { CgSpinnerAlt } from "react-icons/cg";
 import "./Spinner.scss";
 

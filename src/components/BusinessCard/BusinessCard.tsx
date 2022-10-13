@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useBusiness } from "../../hooks/useBusiness";
 import { NextButton } from "../NextButton/NextButton";
 import { IoLocationOutline } from "react-icons/io5";

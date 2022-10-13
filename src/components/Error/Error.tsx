@@ -1,4 +1,3 @@
-import * as React from "react";
 import "./Error.scss";
 
 export interface IErrorProps {

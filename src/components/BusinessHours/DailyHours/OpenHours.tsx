@@ -1,4 +1,3 @@
-import React from "react";
 import { WorkingHours } from "../../../types/business.types";
 
 export interface IOpenHoursProps {

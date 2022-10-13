@@ -1,4 +1,3 @@
-import * as React from "react";
 import { AiOutlineRight } from "react-icons/ai";
 import "./NextButton.scss";
 

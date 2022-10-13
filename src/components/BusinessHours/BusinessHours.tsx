@@ -1,4 +1,3 @@
-import React from "react";
 import { DailyHours } from "../../types/business.types";
 import { OpenHours } from "./DailyHours/OpenHours";
 import "./BusinessHours.scss";
