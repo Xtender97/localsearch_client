@@ -13,6 +13,10 @@ export function BusinessCard() {
 
   if (error) return <Error text={error.message} />;
 
+  const openClass = `card__state ${
+    businesss?.data.isOpen ? "card__state--green" : ""
+  }`;
+
   return (
     <>
       {loading ? (
@@ -20,10 +24,14 @@ export function BusinessCard() {
       ) : (
         <div className="card">
           <div className="card__name">{businesss?.data.displayed_what}</div>
+          <div className={openClass}>
+            {businesss?.data.isOpen ? "Open" : "Closed"}
+          </div>
           <div className="card__address">
             <IoLocationOutline className="card__icon" color="white" />
             {businesss?.data.displayed_where}
           </div>
+
           <BusinessHours
             openingHours={businesss?.data.opening_hours}
           ></BusinessHours>

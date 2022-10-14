@@ -1,6 +1,7 @@
 export interface Business {
   displayed_what: string;
   displayed_where: string;
+  isOpen: boolean;
   opening_hours: {
     hours: DailyHours[];
     closed_on_holidays: boolean;

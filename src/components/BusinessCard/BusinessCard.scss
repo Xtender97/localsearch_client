@@ -19,4 +19,12 @@
   &__icon {
     margin-right: 10px;
   }
+
+  &__state {
+    color: red;
+
+    &--green {
+      color: green;
+    }
+  }
 }
